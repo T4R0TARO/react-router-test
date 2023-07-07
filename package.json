@@ -1,5 +1,6 @@
 {
   "name": "react-router-test",
+  "homepage": "https://t4r0taro.github.io/react-router-test/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -23,9 +24,6 @@
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "@vitejs/plugin-react": "^4.0.1",
-    "eslint-plugin-react": "^7.25.3",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.1",
     "vite": "^4.4.0"
   }
 }
