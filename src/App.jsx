@@ -4,6 +4,8 @@ import PageTwo from "./components/PageTwo";
 import PageThree from "./components/PageThree";
 import NotFound from "./components/NotFound";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "./App.css";
 
 function App() {

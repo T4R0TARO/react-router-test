@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Homepage() {
   return (
-    <div>
+    <div className="page-container">
       <h1>Hompage</h1>
       <Navbar />
       <p>

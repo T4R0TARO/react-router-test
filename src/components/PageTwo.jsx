@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 function PageTwo() {
   return (
-    <div>
+    <div className="page-container">
       <h1>PageTwo</h1>
       <Navbar />
       <p>

@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 
 function PageThree() {
   return (
-    <div>
+    <div className="page-container">
       <h1>PageThree</h1>
       <Navbar />
       <p>
