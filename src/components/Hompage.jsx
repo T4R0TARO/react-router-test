@@ -14,9 +14,7 @@ function Homepage() {
       </p>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde facere
-        inventore voluptates perspiciatis quas modi aut eaque quod? Repellendus
-        qui quam quo cumque repudiandae ipsum impedit dolores nemo suscipit
-        doloremque!
+        inventore voluptates perspiciatis quas modi aut eaque quod? Repellendus!
       </p>
     </div>
   );
