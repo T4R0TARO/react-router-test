@@ -16,6 +16,9 @@ function Homepage() {
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde facere
         inventore voluptates perspiciatis quas modi aut eaque quod? Repellendus!
       </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, nulla?
+      </p>
     </div>
   );
 }
