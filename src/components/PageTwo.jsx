@@ -19,6 +19,7 @@ function PageTwo() {
         architecto! In illum perspiciatis ipsam sit, voluptatibus excepturi
         dolor!
       </p>
+      <h2>Lorem ipsum dolor sit</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum culpa
         esse nemo quisquam, sed rerum perspiciatis autem doloremque odio nobis.
