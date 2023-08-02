@@ -6,6 +6,7 @@ function PageTwo() {
     <div className="page-container">
       <h1>PageTwo</h1>
       <Navbar />
+      <h1>Lorem, ipsum dolor</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, fugit
         molestiae nam sunt quibusdam consectetur voluptatem dolorem unde facere
@@ -17,6 +18,10 @@ function PageTwo() {
         voluptatibus, tempore cumque quo dolorem saepe, quisquam debitis
         architecto! In illum perspiciatis ipsam sit, voluptatibus excepturi
         dolor!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum culpa
+        esse nemo quisquam, sed rerum perspiciatis autem doloremque odio nobis.
       </p>
     </div>
   );
