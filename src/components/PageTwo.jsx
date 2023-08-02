@@ -24,6 +24,7 @@ function PageTwo() {
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum culpa
         esse nemo quisquam, sed rerum perspiciatis autem doloremque odio nobis.
       </p>
+      <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque!</h2>
     </div>
   );
 }
