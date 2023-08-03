@@ -40,7 +40,11 @@ function PageThree() {
           natus incidunt harum quia sed ipsam, at quibusdam eum libero ratione!
         </p>
       </div>
-      <p>
+      <p
+        style={{
+          color: "red",
+        }}
+      >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos modi
         possimus nostrum error labore dicta! Necessitatibus dolor molestias
         deserunt aspernatur!
