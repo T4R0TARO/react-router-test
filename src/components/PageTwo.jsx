@@ -25,6 +25,12 @@ function PageTwo() {
         esse nemo quisquam, sed rerum perspiciatis autem doloremque odio nobis.
       </p>
       <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque!</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quis,
+        laudantium et soluta eum dicta? Lorem ipsum, dolor sit amet consectetur
+        adipisicing elit. Maiores, animi. Perspiciatis quos facilis suscipit
+        tempore voluptates aliquam explicabo, fugiat laborum.
+      </p>
     </div>
   );
 }
