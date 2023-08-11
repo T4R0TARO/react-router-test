@@ -7,6 +7,7 @@ function Homepage() {
     <div className="page-container">
       <h1>Hompage</h1>
       <Navbar />
+      <h1>Lorem ipsum dolor sit.</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum in ex
         commodi laborum eius ullam libero itaque, sed fugit repellat, nulla
