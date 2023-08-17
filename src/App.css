@@ -22,9 +22,42 @@
 }
 
 p {
-  max-width: 600px;
+  /* max-width: 600px; */
 }
 
 span {
   margin-left: 0.5rem;
+}
+
+.question {
+  background-color: lightgray;
+  color: black;
+  margin: 1rem 0;
+  padding: 1.4rem 1rem;
+  border-radius: 24px;
+  box-shadow: 0px 25px 50px rgba(22, 25, 79, 0.05);
+  width: 100%;
+}
+
+.question p {
+  overflow: hidden;
+  text-align: start;
+}
+
+.question h4 {
+  color: #16194f;
+  font-size: 1.3rem;
+}
+
+.toggle-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toggle-title button {
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
 }

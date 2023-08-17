@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
+import { motion, AnimatePresence } from "framer-motion";
+
 function PageTwo() {
+  const [toggle, setToggle] = useState(false);
+
+  const btnToggler = () => {
+    setToggle(!toggle);
+  };
+
+  console.log(toggle);
+
   return (
     <div className="page-container">
       <h1>PageTwo</h1>
@@ -19,24 +29,31 @@ function PageTwo() {
         architecto! In illum perspiciatis ipsam sit, voluptatibus excepturi
         dolor!
       </p>
-      <h2>Lorem ipsum dolor sit</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum culpa
-        esse nemo quisquam, sed rerum perspiciatis autem doloremque odio nobis.
-      </p>
-      <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque!</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quis,
-        laudantium et soluta eum dicta? Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Maiores, animi. Perspiciatis quos facilis suscipit
-        tempore voluptates aliquam explicabo, fugiat laborum.
-      </p>
-      <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nesciunt
-        deleniti debitis recusandae deserunt atque in minus? Aliquid nisi
-        quisquam commodi necessitatibus soluta odit mollitia.
-      </p>
+
+      <AnimatePresence>
+        <div className="question">
+          <div className="toggle-title">
+            <h4>Lorem ipsum dolor sit?</h4>
+            <button onClick={btnToggler}>{toggle ? "➖" : "➕"}</button>
+          </div>
+
+          {toggle && (
+            <motion.div
+              initial={{ height: 0 }}
+              animate={{ height: "auto" }}
+              exit={{ height: 0 }}
+              transition={{ type: "spring", duration: 0.4, bounce: 0 }}
+            >
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Consequatur nihil corporis, culpa esse neque amet. Lorem ipsum
+                dolor, sit amet consectetur adipisicing elit. Neque optio
+                placeat amet voluptatibus quo voluptatem.
+              </p>
+            </motion.div>
+          )}
+        </div>
+      </AnimatePresence>
     </div>
   );
 }
