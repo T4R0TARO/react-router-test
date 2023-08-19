@@ -1,17 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
+import Question from "./Question";
 import { motion, AnimatePresence } from "framer-motion";
 
 function PageTwo() {
-  const [toggle, setToggle] = useState(false);
-
-  const btnToggler = () => {
-    setToggle(!toggle);
-  };
-
-  console.log(toggle);
-
   return (
     <div className="page-container">
       <h1>PageTwo</h1>
@@ -31,28 +24,9 @@ function PageTwo() {
       </p>
 
       <AnimatePresence>
-        <div className="question">
-          <div className="toggle-title">
-            <h4>Lorem ipsum dolor sit?</h4>
-            <button onClick={btnToggler}>{toggle ? "➖" : "➕"}</button>
-          </div>
-
-          {toggle && (
-            <motion.div
-              initial={{ height: 0 }}
-              animate={{ height: "auto" }}
-              exit={{ height: 0 }}
-              transition={{ type: "spring", duration: 0.4, bounce: 0 }}
-            >
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Consequatur nihil corporis, culpa esse neque amet. Lorem ipsum
-                dolor, sit amet consectetur adipisicing elit. Neque optio
-                placeat amet voluptatibus quo voluptatem.
-              </p>
-            </motion.div>
-          )}
-        </div>
+        <Question />
+        <Question />
+        <Question />
       </AnimatePresence>
     </div>
   );
